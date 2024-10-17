@@ -35,6 +35,6 @@ With an emphasis on technology, Pinnacle Accountants LLP has integrated cloud-ba
 - HTML, CSS, Bootstrap (Development)
 
 ## Application Demo 
-![Pinnacle Accountant Website](https://github.com/user-attachments/assets/d3e8fbd4-95e6-4438-9c51-77703c931efd)
+https://github.com/user-attachments/assets/67f67d66-e898-418e-b9e3-10240f3301f5
 
 
