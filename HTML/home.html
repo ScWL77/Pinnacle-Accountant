@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="../CSS/style.css">
+      <link rel="preload" href="../Assets/Logo1.png" as="image">
+      <link rel="preload" href="../Assets/Logo2.png" as="image">
+      <link rel="icon" type="image/x-icon" href="../Assets/favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+      <!--Nav bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"><img src="../Assets/logo.png" class="d-block" alt="Company Logo" height="50px"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="mx-auto"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #142933;">
+                            Insights
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">AI Insights</a></li>
+                            <li><a class="dropdown-item" href="#">Pinnacle Accountant 2023 CEO Outlook Report: Singapore</a></li>
+                            <li><a class="dropdown-item" href="#">Pinnacle Accountants podcasts</a></li>
+                            <li><a class="dropdown-item" href="#">Pinnacle Accountants webcasts</a></li>
+                            <li><a class="dropdown-item" href="#">Sustainability</a></li>
+                            <li><a class="dropdown-item" href="#">Transparent Reports</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #142933;">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="accounting-services.html">Accounting</a></li>
+                            <li><a class="dropdown-item" href="#">Auditing & Assurance</a></li>
+                            <li><a class="dropdown-item" href="#">Corporate Secretarial</a></li>
+                            <li><a class="dropdown-item" href="#">Taxation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCompany" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #142933;">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
+                            <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Awards & Rankings</a></li>
+                            <li><a class="dropdown-item" href="#">Corporate Sustainability</a></li>
+                            <li><a class="dropdown-item" href="#">Our Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Our Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Connect with Us</a></li>
+                </ul>
+            </div>
+        </div>
+      
+          <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" aria-label="Search">
+              <button class="custom-btn rounded" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+
+          <!-- Static Carousel (Banner)-->
+          <div id="carouselStatic" class="carousel slide" data-bs-ride="false"> <!-- Disable sliding -->
+            <div class="carousel-inner text-dark-blue">
+                <div class="carousel-item active">
+                    <img src="../Assets/homebanner copy.png" class="d-block w-100" alt="Banner Image">
+                    <div class="overlay-content" style="padding-left:10px;">
+                        <div class="slogan text-dark-blues">Serving Business' Financial Needs</div>
+                        <h5 class="card-title mt-4" style="font-size: 20px; width: 50%;">At Pinnacle Accountants, we deliver precision and trust with expert compliance and transparency, empowering your business to achieve financial excellence and thrive with confidence.</h5>
+                        <button type="button" class="btn btn-secondary mt-4">Schedule a Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Services Section-->
+          <h3 id="headings" style="padding-right:20px;">Our Services</h3>
+          <div class="container" style="padding-left: 70px; padding-top:20px; padding-bottom: 20px;">
+            <!-- Row 1 -->
+            <div class="row">
+              <div class="col-md-6">
+                <a href="accounting-services.html" style="text-decoration: none;">
+                  <div class="card mb-3" id="features" style="max-width: 540px; background-color: #142933;">
+                    <div class="row g-0">
+                      <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="../Assets/accounting-logo.png" class="img-fluid w-50 rounded-start" alt="Accounting">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: #fff; text-decoration: underline;">Accounting</h5>
+                          <p class="card-text" style="color: #fff;">Our Accounting services ensure accurate financial management through streamlined Payroll and Bookkeeping solutions.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-3" id="features" style="max-width: 540px; background-color: #142933;">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                      <img src="../Assets/audit.png" class="img-fluid w-50 rounded-start" alt="Audit and Assurance">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color: #fff; text-decoration: underline;">Audit & Assurance</h5>
+                        <p class="card-text" style="color: #fff;">Our Audit & Assurance services provide reliable Financial Statement Audits and assessments to ensure transparency and compliance.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Row 2 -->
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-3" id="features" style="max-width: 540px; background-color: #142933;">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                      <img src="../Assets/secretarial.png" class="img-fluid w-50 rounded-start" alt="Corporate Secretarial">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color: #fff; text-decoration: underline;">Corporate Secretarial</h5>
+                        <p class="card-text" style="color: #fff;">Our Corporate Secretarial services streamline compliance with tailored Accounting and Finance Solutions to support your business growth.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-3" id="features" style="max-width: 540px; background-color: #142933;">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                      <img src="../Assets/tax.png" class="img-fluid w-50 rounded-start" alt="Taxation">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color: #fff; text-decoration: underline;">Taxation</h5>
+                        <p class="card-text" style="color: #fff;">Our Taxation services help you optimize your tax position with expert Corporate Tax Planning, Compliance, and Consulting strategies.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="background-color: #142933;">
+            <!--Our Blog section-->
+            <h3 id="headings" style="color: #fff; padding: 20px;">Our Blog</h3>
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-4">
+                  <!--Blog 1-->
+                  <div class="card">
+                    <img src="../Assets/blog-image1.png" class="card-img-top blog-img-customize" alt="Blog Image 1">
+                    <div class="card-body">
+                      <h5 class="card-title">How SMEs Can Prepare for a Business Audit</h5>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 2 days ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <!--Blog 2-->
+                  <div class="card">
+                    <img src="../Assets/blog-image2.png" class="card-img-top blog-img-customize" alt="Blog Image 2">
+                    <div class="card-body">
+                      <h5 class="card-title">How Audits Can Enhance Your Business Credibility</h5>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 weeks ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <!--Blog 3-->
+                  <div class="card">
+                    <img src="../Assets/blog-image3.png" class="card-img-top blog-img-customize" alt="Blog Image 3">
+                    <div class="card-body">
+                      <h5 class="card-title">The Benefits of Outsourcing Accounting Services</h5>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 6 months ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center" >
+                <input class="btn shadow-none" id="button-blog" type="button" value="Read More">
+              </div>
+            </div>
+          </div>
+          
+        
+        <!--Testimonials Section-->
+        <h3 id="headings" style="padding: 20px;">Testimonials</h3>
+        <div class="container">
+          <div class="row justify-content-center">
+              <!--Testimonial One-->
+              <div class="card" id="testimonial" style="width: 18rem;  background-color: #142933;">
+                <div class="card-body d-flex flex-column" style="height: 100%;" >
+                  <div class="row" style="height: 10%; margin-bottom: 10px;">
+                    <img src="../Assets/quotation.png" class="w-25 float-start" alt="Quotation Marks"/>
+                  </div>
+                  <div class="row mb-4 flex-grow-1" style="height: 70%;">
+                    <p class="card-text" style="color: #fff;">We thank Pinnacle Accountants for their professionalism and dedication in managing our financial needs. 
+                      Their team consistently provides insightful advice, helping us confidently navigate complex decisions in tax planning, 
+                      bookkeeping, and long-term strategy.
+                    </p>
+                  </div>
+                  <div class="row" style="height: 20%;">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" >
+                      <img src="../Assets/ming-maa.png" class="card-img-top rounded-circle w-100 test-img" alt="Ming Maa Image" style="object-fit: cover;">
+                    </div>
+                    <div class="col-md-8 d-flex flex-column justify-content-center">
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><b>MING MAA</b></p>
+                      </div>
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><small class="text-body-secondary">President of Grab</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Testimonial Two-->
+              <div class="card" id="testimonial" style="width: 18rem; background-color: #142933;">
+                <div class="card-body d-flex flex-column" style="height: 100%;" >
+                  <div class="row" style="height: 10%; margin-bottom: 10px;">
+                    <img src="../Assets/quotation.png" class="w-25 float-start" alt="Quotation Marks"/>
+                  </div>
+                  <div class="row mb-4 flex-grow-1" style="height: 70%;">
+                    <p class="card-text" style="color: #fff;">As a small-medium enterprise owner, I need trustworthy professionals who understand our challenges. 
+                      Pinnacle Accountants has exceeded my expectations with reliable advice and personalized service. Their attention to detail has 
+                      significantly improved our financial management.</p>
+                  </div>
+                  <div class="row" style="height: 20%;">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" >
+                      <img src="../Assets/danny-tan.png" class="card-img-top rounded-circle w-100 test-img" alt="Danny Tan Image" style="object-fit: cover;">
+                    </div>
+                    <div class="col-md-8 d-flex flex-column justify-content-center">
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><b>DANNY TAN</b></p>
+                      </div>
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><small class="text-body-secondary">Co-Founder of HonestBee</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Testimonial three-->
+              <div class="card" id="testimonial" style="width: 18rem; background-color: #142933;">
+                <div class="card-body d-flex flex-column" style="height: 100%;" >
+                  <div class="row" style="height: 10%; margin-bottom: 10px;">
+                    <img src="../Assets/quotation.png" class="w-25 float-start" alt="Quotation Marks"/>
+                  </div>
+                  <div class="row mb-4 flex-grow-1" style="height: 70%;">
+                    <p class="card-text" style="color: #fff;">Prompt responses and knowledgeable staff! A trusted partner for all our financial needs.</p>
+                  </div>
+                  <div class="row" style="height: 20%;">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" >
+                      <img src="../Assets/gunjan-soni.png" class="card-img-top rounded-circle w-100 test-img" alt="Gunjan Soni Image" style="object-fit: cover;">
+                    </div>
+                    <div class="col-md-8 d-flex flex-column justify-content-center">
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><b>GUNJAN SONI</b></p>
+                      </div>
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><small class="text-body-secondary">CEO of Zalora</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Testimonial Four-->
+              <div class="card" id="testimonial" style="width: 18rem; background-color: #142933;">
+                <div class="card-body d-flex flex-column" style="height: 100%;" >
+                  <div class="row" style="height: 10%; margin-bottom: 10px;">
+                    <img src="../Assets/quotation.png" class="w-25 float-start" alt="Quotation Marks"/>
+                  </div>
+                  <div class="row mb-4 flex-grow-1" style="height: 70%;">
+                    <p class="card-text" style="color: #fff;">I was hesitant at first, but Jason took the time to clearly explain the services he recommended for us. 
+                      He’s incredibly well-versed in this area and always willing to share more insights, which gave us the confidence to move 
+                      forward. We’ve been very happy with the results.</p>
+                  </div>
+                  <div class="row" style="height: 20%;">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center" >
+                      <img src="../Assets/debashis-chatterjee.png" class="card-img-top rounded-circle w-100 test-img" alt="Debashis Chatterjee Image" style="object-fit: cover;">
+                    </div>
+                    <div class="col-md-8 d-flex flex-column justify-content-center">
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><b>DEBASHIS CHATTERJEE</b></p>
+                      </div>
+                      <div class="row">
+                        <p class="card-text" style="color: #fff;"><small class="text-body-secondary">CEO of Mindtree</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <!--Client section-->
+        <h3 id="headings">Clients</h3>
+        <div class="container">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Assets/Logo1.png" class="d-block w-100" alt="Clients' Logo 1">
+              </div>
+              <div class="carousel-item">
+                <img src="../Assets/Logo2.png" class="d-block w-100" alt="Clients' Logo 2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Accreditation section-->
+        <h3 id="headings">Accreditation</h3>
+        <div class="container">
+          <img src="../Assets/Accreditation.png" class="img-fluid" alt="Accreditation Logos">
+        </div>
+
+        <footer class="text-center text-start text-light" style="background-color: #142933">
+          <!-- Grid container -->
+          <div class="container p-3 pt-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row" style="padding-left: 60px; padding-bottom: 0px;">
+                <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
+                    <h5 class="mb-4">Get In Touch</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li style="padding-bottom: 5px;" class="mb-3">
+                            <div style="display: flex; align-items: top;">
+                                <img src="../Assets/address.png" alt="address" style="width: 20px; height: 20px;">
+                                <a href="#!" class="text-light" style="padding-left: 10px; text-decoration: none;">24 Raffles Place, #07-23<br>Clifford Centre<br>Singapore 048621</a>
+                            </div>
+                        </li>
+                        <li class="mb-3">
+                        <img src="../Assets/phone.png" alt="address" style="width: 20px; height: 20px;">
+                        <a href="#!" class="text-light" style="padding-left: 10px; text-decoration: none;">+65 6932 8465</a>
+                        </li>
+                        <li class="mb-3">
+                        <img src="../Assets/email.png" alt="address" style="width: 20px; height: 20px;">
+                        <a href="#!" class="text-light" style="padding-left: 10px; text-decoration: none;">contact@pinnacleaccountants.com</a>
+                        </li class="mb-3">
+                        <li style="padding-top: 2px;" >
+                        <img src="../Assets/time.png" alt="address" style="width: 20px; height: 20px;">
+                        <a href="#!" class="text-light" style="padding-left: 10px; text-decoration: none;">9:00am - 6:00pm</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+                    <h5 class="mb-4">Insights</h5>
+        
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">Sustainability</a>
+                        </li>
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">Transparency Reports</a>
+                        </li>
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">2023 CEO Outlook Report</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" class="text-light" style="text-decoration: none;">AI Insights</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" class="text-light" style="text-decoration: none;">Pinnacle Accountants podcasts</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" class="text-light" style="text-decoration: none;">Pinnacle Accountants webcasts</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+                    <h5 class="mb-4">Services</h5>
+        
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">Accounting</a>
+                        </li>
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">Taxation</a>
+                        </li>
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">Audit & Assurance</a>
+                        </li>
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">Corporate Secretarial</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+                    <h5 class="mb-4">Company</h5>
+        
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">About Us</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" class="text-light" style="text-decoration: none;">Awards & Rankings</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" class="text-light" style="text-decoration: none;">Corporate Sustainability</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" class="text-light" style="text-decoration: none;">Connect with Us</a>
+                        </li>
+                        <li class="mb-3">
+                        <a href="#!" class="text-light" style="text-decoration: none;">Our Team</a>
+                        </li>
+                        <li class="mb-3">
+                          <a href="#!" class="text-light" style="text-decoration: none;">Our Blog</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+        
+                <!-- Section: Social media -->
+                <section class="mb-4 text-center">
+                    <div class="horizontal-lines-container" style="display: flex; align-items: center; justify-content: center; position: relative;">
+                        <div class="line" style="flex-grow: 1; height: 1px; background-color: #fff;"></div>
+                        
+                        <div style="padding: 0 20px;">
+                            <!-- Facebook -->
+                            <a class="btn btn-floating m-1" href="#!" role="button">
+                                <img src="../Assets/facebook.png" alt="Facebook" style="width: 40px; height: 40px;" />
+                            </a>
+                
+                            <!-- Instagram -->
+                            <a class="btn btn-floating m-1" href="#!" role="button">
+                                <img src="../Assets/instagram.png" alt="Instagram" style="width: 40px; height: 40px;" />
+                            </a>
+                
+                            <!-- WhatsApp -->
+                            <a class="btn btn-floating m-1" href="#!" role="button">
+                                <img src="../Assets/whatsapp.png" alt="WhatsApp" style="width: 40px; height: 40px;" />
+                            </a>
+                
+                            <!-- LinkedIn -->
+                            <a class="btn btn-floating m-1" href="#!" role="button">
+                                <img src="../Assets/linkedin.png" alt="LinkedIn" style="width: 40px; height: 40px;" />
+                            </a>
+                
+                            <!-- YouTube -->
+                            <a class="btn btn-floating m-1" href="#!" role="button">
+                                <img src="../Assets/youtube.png" alt="YouTube" style="width: 40px; height: 40px;" />
+                            </a>
+                        </div>
+                        <div class="line" style="flex-grow: 1; height: 1px; background-color: #fff;"></div>
+                    </div>
+                </section>                
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <h5 style="margin: 0px; padding: 0px; font-size: 15px;">Pinnacle Accountants</h5>
+        
+            <!-- Copyright -->
+            <div
+                class="text-center p-3"
+                >
+                © 2024 Pinnacle Accountants LLP. All Rights Reserved.
+            </div>
+            <!-- Copyright -->
+            </footer>
+        <!-- FOOTER -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    </body>
+</html>
