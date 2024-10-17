@@ -10,10 +10,10 @@ Tasked to design and develop a website for an accounting company. The objective 
 
 ## Information of the Accounting Company
  
-Company Name: Pinnacle Accountants LLP 
-Location: Singapore 
-Industry: Accounting, Taxation, and Financial Advisory Services 
-Clientele: Small to Medium Enterprises (SMEs), Corporations, and Startups in Singapore 
+Company Name: Pinnacle Accountants LLP <br/>
+Location: Singapore <br/>
+Industry: Accounting, Taxation, and Financial Advisory Services <br/>
+Clientele: Small to Medium Enterprises (SMEs), Corporations, and Startups in Singapore <br/>
 
 Background: 
 
